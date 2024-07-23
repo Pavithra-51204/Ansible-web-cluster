@@ -20,7 +20,7 @@ a) inventory: Defines the hosts for the web servers and load balancer.
 b) setup_webservers.yml: Ansible playbook for configuring web servers.
 c) setup_loadbalancer.yml: Ansible playbook for setting up the HAProxy load balancer.
 d) templates/haproxy.cfg.j2: Jinja2 template for HAProxy configuration.
-e)files/index.html: Sample web page served by the web servers.
+e) files/index.html: Sample web page served by the web servers.
 
 Prerequisites:
 
